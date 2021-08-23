@@ -3148,7 +3148,7 @@ img {
 }
 
 .index-page .page-header {
-  height: 125vh;
+  height: 100%;
 }
 
 .index-page .page-header .container > .content-center {
@@ -3165,7 +3165,10 @@ img {
 }
 
 .profile-page .page-header {
-  min-height: 550px;
+  min-height: 750px;
+  display:flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .profile-page .profile-container {
